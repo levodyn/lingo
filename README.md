@@ -15,6 +15,9 @@ DELETE FROM `dicts` WHERE LENGTH(word) !=5
 #storage
 
 create a app/cover_images directory in storage
+
 Make sure the storage is linked
+
 php artisan storage:link
+
 add a noimage.jpg and the navbar (view(inc/navbar) contains  an image
