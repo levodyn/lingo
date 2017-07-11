@@ -16,7 +16,7 @@ DELETE FROM `dicts` WHERE LENGTH(word) !=5
 
 #storage
 
-create a app/cover_images directory in storage
+create a app/public/cover_images directory in storage
 
 Make sure the storage is linked
 
