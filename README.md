@@ -5,11 +5,13 @@ composer install
 #database
 
 Create a lingo database
+
 Fill in your database information (username,password, db-name) in the env file [root] 
 
 #sql commands to install dictionary
 
 LOAD DATA LOCAL INFILE '@pathToLingo/storage/app/[dictfile]' INTO TABLE `dicts`(word)
+
 DELETE FROM `dicts` WHERE LENGTH(word) !=5 
 
 #storage
